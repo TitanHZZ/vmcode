@@ -1,5 +1,5 @@
 {
-    "name": "vasm-lang",
+    "name": "vmcode",
     "displayName": "Vasm Lang",
     "description": "Syntax highlighting for vasm lang.",
     "version": "0.0.1",
