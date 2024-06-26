@@ -1,0 +1,61 @@
+{
+	"scopeName": "source.vasm",
+	"patterns": [
+		{ "include": "#comments"   },
+		{ "include": "#keywords"   },
+		{ "include": "#numbers"    },
+		{ "include": "#labels"     },
+		{ "include": "#directives" },
+		{ "include": "#strings"    }
+	],
+	"repository": {
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.vasm",
+					"match": "#.*$"
+				}
+			]
+		},
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.vasm",
+					"match": "\\b(push|pop|swap|dup|add|sub|mul|div|equ|jmp|jif|print|exit|shl|not|sar|and|or|xor|shr|ti|td|tp|call|native|write|read|mod|ret)\\b"
+				}
+			]
+		},
+		"numbers": {
+			"patterns": [
+				{
+					"name": "constant.numeric.vasm",
+					"match": "-?\\d+(.\\d+)?(e|-|e-\\d+)?"
+				}
+			]
+		},
+		"labels": {
+    	  "patterns": [
+        		{
+          			"name": "entity.name.function.vasm",
+          			"match": "[a-zA-Z]*:"
+	        	}
+      		]
+    	},
+		"directives": {
+			"patterns" : [
+				{
+					"name": "keyword.vasm",
+					"match": "%(alias|string|res|include)"
+				}
+			]
+		},
+		"strings": {
+			"patterns" : [
+				{
+					"name": "string.quoted.double.vasm",
+					"match": "\".*\""
+				}
+			]
+		}
+	}
+}
