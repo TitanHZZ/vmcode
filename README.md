@@ -1,19 +1,22 @@
 # vmcode
 
-This is a vscode extension that adds support for my stack based virtual machine, [vm](https://github.com/TitanHZZ/vm).
+This is a VSCode extension that adds support for my stack based virtual machine, [vm](https://github.com/TitanHZZ/vm).
 
 ## Features
 
-* This extension gives you simple syntax highlighting and "Go to Definition".
+* This extension gives you simple syntax highlighting and basic "Go to Definition".
 
 ![Preview](/preview.png?raw=true)
 
 ## Run this extension for debugging/development
 
-* Press `F5` to open a new window with your extension loaded.
-* Create a new file with a file name suffix matching your language.
-* Verify that syntax highlighting works and that the language configuration settings are working.
+* Open this project in VSCode.
+* Install the dependencies with `npm i`.
+* Press `F5` to open a new VSCode window with the extension loaded.
 
 ## Install the extension
 
-* To start using the extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
+* Open this project in VSCode.
+* Install the dependencies with `npm i`.
+* Package the extension with `npm run package`.
+* Install the extension with `code --install-extension vmcode-0.0.1.vsix` and restart VSCode.
