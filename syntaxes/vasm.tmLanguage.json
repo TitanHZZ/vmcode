@@ -21,7 +21,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.vasm",
-					"match": "\\b(push|pop|swap|dup|add|sub|mul|div|equ|jmp|jif|print|exit|shl|not|sar|and|or|xor|shr|ti|td|tp|call|native|write|read|mod|ret)\\b"
+					"match": "\\b(push|pop|swap|dup|add|sub|mul|div|equ|jmp|jif|print|exit|shl|not|sar|and|or|xor|shr|ti|td|tp|call|native|write|read|mod|ret|dump_stack|dump_memory)\\b"
 				}
 			]
 		},

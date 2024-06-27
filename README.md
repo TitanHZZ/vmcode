@@ -4,7 +4,7 @@ This is a vscode extension that adds support for my stack based virtual machine,
 
 ## Features
 
-* For now, this extension gives you just simple syntax highlighting.
+* This extension gives you simple syntax highlighting and "Go to Definition".
 
 ![Preview](/preview.png?raw=true)
 
